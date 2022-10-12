@@ -4,7 +4,8 @@ import {
     Stack,
     HStack,
     Text,
-    Box
+    Box,
+    Container
   } from '@chakra-ui/react'
 import Link from "next/link"
 import styled from "@emotion/styled"
@@ -13,7 +14,8 @@ import DarkModeSwitch from "./DarkModeSwitch"
 
 const Header = ({ children }) => {
     return(
-        <HStack justifyContent='space-between' p='2' color='white' borderBottom='1px solid #2A3E57'>
+        <Container maxW='8xl' p='5'>
+            <HStack justifyContent='space-between' p='2' color='white' borderBottom='1px solid #2A3E57'>
             <Stack alignItems='center' ps='2'>
                 <Text>LOGO</Text>
             </Stack>
@@ -35,6 +37,7 @@ const Header = ({ children }) => {
             </Box>
             </Stack>
         </HStack>
+        </Container>
     )
 }
 export default Header

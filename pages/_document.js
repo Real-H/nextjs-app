@@ -9,9 +9,7 @@ export default class MyDocument extends NextDocument {
         // }
         return (
             <Html lang="en">
-                <Head>
-                    <title>Real-H</title>
-                </Head>
+                <Head />
                 <body>
                     <ColorModeScript />
                     <Main />

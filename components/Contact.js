@@ -1,13 +1,12 @@
 import React from "react"
 import { Box, Container } from "@chakra-ui/react"
-const Footer = () => {
+const Contact = () =>{
     return(
         <Container maxW='8xl' p='5'>
             <Box>
-                Fotter
+                Contact
             </Box>
         </Container>
     )
 }
-
-export default Footer
+export default Contact
