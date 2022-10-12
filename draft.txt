@@ -1,0 +1,24 @@
+    // const navHoverBg={
+    //     light: 'gray.600',
+    //     dark: 'gray.300'
+    // }
+
+    const StickyNav = styled(Flex)`
+        position: sticky;
+        z-index: 10;
+        top: 0;
+        transition: height .5s, line-height .5s;
+    `
+    // backdrop-filter: saturate(180%) blur(20px);
+    return(
+        <StickyNav backgroundColor= '#3D5A80'>
+            <DarkModeSwitch />
+            <Box>
+                <Link href='/' passHref>
+                    <Button as='a' varient='ghost' p={[1,2,4]} _hover={{ backgroundColor: 'gray.600' }}>
+                        Home
+                    </Button>
+                </Link>
+            </Box>
+        </StickyNav>
+    )
