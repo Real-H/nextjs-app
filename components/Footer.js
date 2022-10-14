@@ -1,13 +1,23 @@
-import React from "react"
-import { Box, Container } from "@chakra-ui/react"
+import React from "react";
+import { Box, Container, Flex, Spacer, Text } from "@chakra-ui/react";
 const Footer = () => {
-    return(
-        <Container maxW='8xl' p='5'>
-            <Box>
-                Fotter
-            </Box>
-        </Container>
-    )
-}
+  return (
+    <Box backgroundColor={"#293241"}>
+      <Container maxW="8xl" p="5">
+        <Flex p="3" color={"white"}>
+          <Box>
+            <Text>Logo</Text>
+          </Box>
+          <Spacer />
+          <Box>Coptrights</Box>
+          <Spacer />
+          <Box>
+            <Text>Contact me on my socials</Text>
+          </Box>
+        </Flex>
+      </Container>
+    </Box>
+  );
+};
 
-export default Footer
+export default Footer;
