@@ -27,27 +27,27 @@ const Work = () => {
           p={"5"}
           gap={"7"}
         >
-          <GridItem>
+          <GridItem colSpan={{base:3, md:1}}>
             <Text py={'2'}>Ecommerce Landing page</Text>
             <Image src="/Rectangle0.png" />
           </GridItem>
-          <GridItem>
+          <GridItem colSpan={{base:3, md:1}}>
             <Text py={'2'}>Ecommerce Landing page</Text>
             <Image src="/Rectangle1.png" />
           </GridItem>
-          <GridItem>
+          <GridItem colSpan={{base:3, md:1}}>
             <Text py={'2'}>Ecommerce Landing page</Text>
             <Image src="/Rectangle2.png" />
           </GridItem>
-          <GridItem>
+          <GridItem colSpan={{base:3, md:1}}>
             <Text py={'2'}>Ecommerce Landing page</Text>
             <Image src="/Rectangle3.png" />
           </GridItem>
-          <GridItem>
+          <GridItem colSpan={{base:3, md:1}}>
             <Text py={'2'}>Ecommerce Landing page</Text>
             <Image src="/Rectangle4.png" />
           </GridItem>
-          <GridItem>
+          <GridItem colSpan={{base:3, md:1}}>
             <Text py={'2'}>Ecommerce Landing page</Text>
             <Image src="/Rectangle5.png" />
           </GridItem>
