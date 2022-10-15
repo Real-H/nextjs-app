@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Container, Flex, Spacer, Text, IconButton } from "@chakra-ui/react";
+import { Box, Container, Flex, Spacer, Heading, IconButton } from "@chakra-ui/react";
 import { MdFacebook } from "react-icons/md";
 import { BsGithub, BsDiscord } from "react-icons/bs";
 
@@ -7,21 +7,26 @@ const Footer = () => {
   return (
     <Box backgroundColor={"#293241"}>
       <Container maxW="8xl" p="5">
-        <Flex p="3" color={"white"}>
+        <Flex 
+        color={"white"}
+        align='center'
+        justify={'center'}
+        >
           <Box>
-            <Text>Logo</Text>
+            <Heading 
+            fontSize={'2xl'}
+            >Logo</Heading>
           </Box>
           <Spacer />
-          <Box>Coptrights</Box>
+          <Box> Copyright 2021. All right reserved</Box>
           <Spacer />
           <Box>
-            <Text>Contact me on my socials</Text>
             <IconButton
                       aria-label="facebook"
                       variant="ghost"
                       size="lg"
                       isRound={true}
-                      _hover={{ bg: "#0D74FF" }}
+                      _hover={{ bg: "#EE6C4D" }}
                       icon={<MdFacebook size="28px" />}
                     />
                     <IconButton
@@ -29,7 +34,7 @@ const Footer = () => {
                       variant="ghost"
                       size="lg"
                       isRound={true}
-                      _hover={{ bg: "#0D74FF" }}
+                      _hover={{ bg: "#EE6C4D" }}
                       icon={<BsGithub size="28px" />}
                     />
                     <IconButton
@@ -37,7 +42,7 @@ const Footer = () => {
                       variant="ghost"
                       size="lg"
                       isRound={true}
-                      _hover={{ bg: "#0D74FF" }}
+                      _hover={{ bg: "#EE6C4D" }}
                       icon={<BsDiscord size="28px" />}
                     />
           </Box>

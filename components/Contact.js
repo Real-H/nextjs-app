@@ -28,10 +28,10 @@ import { BsGithub, BsDiscord, BsPerson } from "react-icons/bs";
 
 export default function Contact() {
   return (
-    <Container bg="#9DC4FB" maxW="full" mt={0} centerContent overflow="hidden">
+    <Container bg="#3D5A80" maxW="full" mt={0} centerContent overflow="hidden">
       <Flex>
         <Box
-          bg="#02054B"
+          bg="#293241"
           color="white"
           borderRadius="lg"
           m={{ sm: 4, md: 16, lg: 10 }}
@@ -41,8 +41,8 @@ export default function Contact() {
             <Wrap spacing={{ base: 20, sm: 3, md: 5, lg: 20 }}>
               <WrapItem>
                 <Box>
-                  <Heading>Contact</Heading>
-                  <Text mt={{ sm: 3, md: 3, lg: 5 }} color="gray.500">
+                  <Heading align={'center'}>Contact</Heading>
+                  <Text mt={{ sm: 3, md: 3, lg: 5 }} color="#EE6C4D">
                     Fill up the form below to contact
                   </Text>
                   <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
@@ -53,10 +53,10 @@ export default function Contact() {
                         width="200px"
                         variant="ghost"
                         color="#DCE2FF"
-                        _hover={{ border: "2px solid #1C6FEB" }}
-                        leftIcon={<MdPhone color="#1970F1" size="20px" />}
+                        _hover={{ border: "2px solid #EE6C4D" }}
+                        leftIcon={<MdPhone color="#EE6C4D" size="20px" />}
                       >
-                        +91-988888888
+                        +92-988888888
                       </Button>
                       <Button
                         size="md"
@@ -64,8 +64,8 @@ export default function Contact() {
                         width="200px"
                         variant="ghost"
                         color="#DCE2FF"
-                        _hover={{ border: "2px solid #1C6FEB" }}
-                        leftIcon={<MdEmail color="#1970F1" size="20px" />}
+                        _hover={{ border: "2px solid #EE6C4D" }}
+                        leftIcon={<MdEmail color="#EE6C4D" size="20px" />}
                       >
                         hello@abc.com
                       </Button>
@@ -75,8 +75,8 @@ export default function Contact() {
                         width="200px"
                         variant="ghost"
                         color="#DCE2FF"
-                        _hover={{ border: "2px solid #1C6FEB" }}
-                        leftIcon={<MdLocationOn color="#1970F1" size="20px" />}
+                        _hover={{ border: "2px solid #EE6C4D" }}
+                        leftIcon={<MdLocationOn color="#EE6C4D" size="20px" />}
                       >
                         Hassaan, Pakistan
                       </Button>
@@ -93,7 +93,7 @@ export default function Contact() {
                       variant="ghost"
                       size="lg"
                       isRound={true}
-                      _hover={{ bg: "#0D74FF" }}
+                      _hover={{ bg: "#EE6C4D" }}
                       icon={<MdFacebook size="28px" />}
                     />
                     <IconButton
@@ -101,7 +101,7 @@ export default function Contact() {
                       variant="ghost"
                       size="lg"
                       isRound={true}
-                      _hover={{ bg: "#0D74FF" }}
+                      _hover={{ bg: "#EE6C4D" }}
                       icon={<BsGithub size="28px" />}
                     />
                     <IconButton
@@ -109,7 +109,7 @@ export default function Contact() {
                       variant="ghost"
                       size="lg"
                       isRound={true}
-                      _hover={{ bg: "#0D74FF" }}
+                      _hover={{ bg: "#EE6C4D" }}
                       icon={<BsDiscord size="28px" />}
                     />
                   </HStack>
@@ -117,7 +117,7 @@ export default function Contact() {
               </WrapItem>
               <WrapItem>
                 <Box bg="white" borderRadius="lg">
-                  <Box m={8} color="#0B0E3F">
+                  <Box m={8} color="#EE6C4D">
                     <VStack spacing={5}>
                       <FormControl id="name">
                         <FormLabel>Your Name</FormLabel>
@@ -126,7 +126,7 @@ export default function Contact() {
                             pointerEvents="none"
                             children={<BsPerson color="gray.800" />}
                           />
-                          <Input type="text" size="md" />
+                          <Input type="text" size="md" placeholder="Your Name" />
                         </InputGroup>
                       </FormControl>
                       <FormControl id="name">
@@ -136,7 +136,7 @@ export default function Contact() {
                             pointerEvents="none"
                             children={<MdOutlineEmail color="gray.800" />}
                           />
-                          <Input type="text" size="md" />
+                          <Input type="text" size="md" placeholder="Your Mail" />
                         </InputGroup>
                       </FormControl>
                       <FormControl id="name">
@@ -152,7 +152,7 @@ export default function Contact() {
                       <FormControl id="name" float="right">
                         <Button
                           variant="solid"
-                          bg="#0D74FF"
+                          bg="#EE6C4D"
                           color="white"
                           _hover={{}}
                         >

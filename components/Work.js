@@ -28,27 +28,27 @@ const Work = () => {
           gap={"7"}
         >
           <GridItem>
-            <Text>Ecommerce Landing page</Text>
+            <Text py={'2'}>Ecommerce Landing page</Text>
             <Image src="/Rectangle0.png" />
           </GridItem>
           <GridItem>
-            <Text>Ecommerce Landing page</Text>
+            <Text py={'2'}>Ecommerce Landing page</Text>
             <Image src="/Rectangle1.png" />
           </GridItem>
           <GridItem>
-            <Text>Ecommerce Landing page</Text>
+            <Text py={'2'}>Ecommerce Landing page</Text>
             <Image src="/Rectangle2.png" />
           </GridItem>
           <GridItem>
-            <Text>Ecommerce Landing page</Text>
+            <Text py={'2'}>Ecommerce Landing page</Text>
             <Image src="/Rectangle3.png" />
           </GridItem>
           <GridItem>
-            <Text>Ecommerce Landing page</Text>
+            <Text py={'2'}>Ecommerce Landing page</Text>
             <Image src="/Rectangle4.png" />
           </GridItem>
           <GridItem>
-            <Text>Ecommerce Landing page</Text>
+            <Text py={'2'}>Ecommerce Landing page</Text>
             <Image src="/Rectangle5.png" />
           </GridItem>
         </Grid>
