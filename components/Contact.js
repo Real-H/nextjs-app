@@ -78,7 +78,7 @@ export default function Contact() {
                         _hover={{ border: "2px solid #1C6FEB" }}
                         leftIcon={<MdLocationOn color="#1970F1" size="20px" />}
                       >
-                        Karnavati, India
+                        Hassaan, Pakistan
                       </Button>
                     </VStack>
                   </Box>
